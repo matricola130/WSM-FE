@@ -1,0 +1,19 @@
+<nav class="navbar navbar-dark bg-primary">
+  <!-- Navbar content -->
+  <a class="navbar-brand" routerLink="menu">WSM</a>
+
+  <ul class="navbar-nav me-auto me-5">
+    <li class="nav-item">
+      <a class="nav-link" routerLink="">Login</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" (click)="logout()">logout</a>
+    </li>
+  </ul>
+
+  <form class="form-inline">
+    <input class="form-control" type="search" aria-label="Cerca">
+    <button class="btn btn-success my-2 my-sm-0" type="submit">Cerca</button>
+  </form>
+
+</nav>

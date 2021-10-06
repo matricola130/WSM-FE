@@ -1,0 +1,9 @@
+.my_container {
+  margin-top: 1%;
+}
+
+.menu_col {
+  border-right-width: 1px;
+  border-right: dodgerblue;
+  border-right-style: solid;
+}
